@@ -1,6 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrash, faPenToSquare } from '@fortawesome/free-solid-svg-icons';
+
 import Logo from '../imgs/logo.jpg';
 import { Link } from 'react-router-dom';
 
@@ -39,8 +38,6 @@ const Navbar = () => {
           </span>
         </div>
       </div>
-      <FontAwesomeIcon icon={faTrash} />
-      <FontAwesomeIcon icon={faPenToSquare} />
     </div>
   );
 };
